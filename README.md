@@ -1,10 +1,10 @@
-# Sui 8192
+# Sui 2048
 
 A fully on-chain, extra challenging version of the popular 2048 game. Built on [Sui](https://sui.io) by [Ethos](https://ethoswallet.xyz).
 
-You can play Sui 8192 at [https://ethoswallet.github.io/Sui8192](https://ethoswallet.github.io/Sui8192)
+You can play Sui 2048 at [s2048.xyz](https://s2048.xyz)
 
-Sui 8192 consists of a smart contract that allows the player to mint a game that is playable on chain.
+Sui 2048 consists of a smart contract that allows the player to mint a game that is playable on chain.
 
 The front-end submits transaction to the Sui blockchain that calculates the next state of the game board. That next state is returned to the front end to display the next state. Most of the logic in the front-end involves diffing and animating the game board states to create an interesting and enjoyable user experience.
 
@@ -14,9 +14,9 @@ This project is built on the [Sui blockchain](https://sui.io), which provides th
 
 ## Ethos
 
-This project uses the [Ethos APIs](https://ethoswallet.xyz/developers) to make the Sui 8192 game accessible to people who do not yet have a web3 wallet. It allows them to start playing the game right away without having to figure out a wallet first.
+This project uses the [Ethos APIs](https://ethoswallet.xyz/dev) to make the Sui 2048 game accessible to people who do not yet have a web3 wallet. It allows them to start playing the game right away without having to figure out a wallet first.
 
-As far as the game is concerned every player has a wallet because the [Ethos APIs](https://ethoswallet.xyz/developers) provide a unified interface for both players with and without wallets.
+As far as the game is concerned every player has a wallet because the [Ethos APIs](https://ethoswallet.xyz/dev) provide a unified interface for both players with and without wallets.
 
 The primary methods that this game uses to do this are:
 
@@ -28,7 +28,7 @@ Each of these can be found by searching in `js/game.js`
 
 ## The Smart Contract
 
-The Sui 8192 smart contract is written Sui Move for deployment on the Sui blockchain. It consists of three parts:
+The Sui 2048 smart contract is written Sui Move for deployment on the Sui blockchain. It consists of three parts:
 
 1. **Game:** Primarily entry functions for making moves and recording the overall game state.
 
@@ -44,8 +44,8 @@ You wil see output like this:
 
 ```
 Created Objects:
-  - ID: 0x6d86e967767b3d736447bc5f29c74e8b6b9c5dd7 , Owner: Immutable
-  - ID: 0xf9803ad429fe9083a6c26f52c4f1ffa981d5ccbf , Owner: Shared
+  - ID: 0xa0a11d0fae2915e4decd8fcd324b70d4895085ac114cd99b3e751a91b483e9b4 , Owner: Immutable
+  - ID: 0xb360691458ca2593fe00f716be235a316aaaa3c1c31348b59b59b8d8e0fbc753 , Owner: Shared
 ```
 
 The immutable object is the contract address and the shared object is the leaderboard address.
