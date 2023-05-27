@@ -3,7 +3,7 @@ const { tileNames } = require("./constants");
 const { eById, eByClass, addClass, removeClass, isReverse, isVertical } = require("./utils");
 
 const ROWS = 4;
-const COLUMNS = 4;
+const COLUMNS = 4; 
 
 let active;
 
