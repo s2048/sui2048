@@ -1,9 +1,9 @@
 {
-  "name": "sui8192",
+  "name": "sui2048",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/EthosWallet/Sui8192.git",
-  "author": "Jared Cosulich <jared.cosulich@gmail.com>",
+  "repository": "https://github.com/s2048/sui2048.git",
+  "author": "S2048 <s2048xyz@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@mysten/bcs": "^0.6.1",

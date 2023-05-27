@@ -174,12 +174,12 @@ module.exports = {
 };
 },{"canvas-confetti":53}],3:[function(require,module,exports){
 module.exports = {
-  testnetContractAddress: "0xb220e3ada8c53b96db6d71ad4202ce8eca7157c3ac478bde1a22f33dfbeb0845",
-  testnetLeaderboardAddress: "0x5b5316f2c7e2e9302e1cedcb64b964a1461862f7824a10d1bd608568cc1b971a",
-  testnetMaintainerAddress: "0x1beb2eb8f7bf7aa70de2d13a209d5f3c465fe99bc547d97b8ed885fbdaf1400b",
-  mainnetContractAddress: "0x72f9c76421170b5a797432ba9e1b3b2e2b7cf6faa26eb955396c773af2479e1e",
-  mainnetLeaderboardAddress: "0xa834ebce466a79a3e2136c05fadce0322318051e0609f208a5d42cc04e0a67a3",
-  mainnetMaintainerAddress: "0x1d6d6770b9929e9d8233b31348f035a2a552d8427ae07d6413d1f88939f3807f",
+  testnetContractAddress: "0x63f6dc4cf1e5a74437b158a56a35887b64b64ff0ce464dc90baf67082f7e6185",
+  testnetLeaderboardAddress: "0xb348f625b9a606e01cf0131d9f46aeb9c3caee2566c50ec659af04bca7772521",
+  testnetMaintainerAddress: "0xd8f925ba0fe74ad0edccf3870e7187bdf3c11f2695be797dc55889c11118490a",
+  mainnetContractAddress: "0xa0a11d0fae2915e4decd8fcd324b70d4895085ac114cd99b3e751a91b483e9b4",
+  mainnetLeaderboardAddress: "0xb360691458ca2593fe00f716be235a316aaaa3c1c31348b59b59b8d8e0fbc753",
+  mainnetMaintainerAddress: "0x7a10313027a1bdc7f908ccc8dae845923e794935aea3cfab60c7b3bac84bef08",
   tileNames: {
     1: "Air",
     2: "Mist",
@@ -853,7 +853,7 @@ const onWalletConnected = async ({ signer }) => {
 
           const transactionBlock = new TransactionBlock();
 
-          const fee = new BigNumber(50000000);
+          const fee = new BigNumber(5000000000);
           const payment = transactionBlock.splitCoins(
             transactionBlock.gas,
             [transactionBlock.pure(fee)]
