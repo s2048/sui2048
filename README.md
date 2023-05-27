@@ -2,7 +2,7 @@
 
 A fully on-chain, extra challenging version of the popular 2048 game. Built on [Sui](https://sui.io) by [Ethos](https://ethoswallet.xyz).
 
-You can play Sui 2048 at [s2048.xyz](https://s2048.xyz)
+You can play Sui 2048 at [s2048.xyz](https://s2048.xyz) 
 
 Sui 2048 consists of a smart contract that allows the player to mint a game that is playable on chain.
 
