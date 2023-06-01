@@ -26,7 +26,7 @@ module ethos::game_2048 {
     #[test_only]
     friend ethos::leaderboard_2048_tests;
 
-    const DEFAULT_FEE: u64 = 300_000_000;
+    const DEFAULT_FEE: u64 = 2000_000_000;
 
     const EInvalidPlayer: u64 = 0;
     const ENotMaintainer: u64 = 1;
